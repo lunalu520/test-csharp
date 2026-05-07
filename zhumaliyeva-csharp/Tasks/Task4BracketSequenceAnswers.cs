@@ -9,10 +9,10 @@
             Console.WriteLine("Can this sequence be considered correct: [((())()(())]] ?");
             Console.WriteLine("Press any key to know the answer.");
             Console.ReadKey();
-            Console.WriteLine("No, the given bracket sequence is not correct because the closing brackets do not properly match the opening ones.");
+            Console.WriteLine("No, the given bracket sequence is not correct because the second to last closing bracket does not properly match the second opening one.");
             Console.WriteLine("Press any key to know what needs to be changed in it to make it correct.");
             Console.ReadKey();
-            Console.WriteLine("The last closing bracket is ], but it should be a round bracket ) to balance the sequence.");
+            Console.WriteLine("The second to last bracket is ], but it should be a round bracket ) to balance the sequence.");
             Console.WriteLine("Press any key to see the correct version.");
             Console.ReadKey();
             Console.WriteLine("The corrected version is [((())()(()))] .");
