@@ -4,7 +4,7 @@
     {
         public static void Run()
         {
-            Console.WriteLine("Press any key to move to the sequence question.");
+            Console.WriteLine("\nPress any key to move to the sequence question.");
             Console.ReadKey();
             Console.WriteLine("Can this sequence be considered correct: [((())()(())]] ?");
             Console.WriteLine("Press any key to know the answer.");
